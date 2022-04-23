@@ -11,8 +11,10 @@ def fibonacci(n):
             cntOne.append(cntOne[i-2] + cntOne[i-1])
     print(cntZero[n], cntOne[n])
         
+#T번 입력하는거 입력받기
 T = int(input())
 
+#T번 반복한다
 for i in range(T):
     n = int(input())
     fibonacci(n)

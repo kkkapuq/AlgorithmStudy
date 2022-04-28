@@ -4,7 +4,7 @@ input = stdin.readline
 
 a, b, c = map(int, input().split())
 
-# ¸ğµâ·¯ °ö¼À¹ıÄ¢ ÀÀ¿ë
+# ëª¨ë“ˆëŸ¬ ê³±ì…ˆë²•ì¹™ ì‘ìš©
 #   a*b % c == (a % c * b % c) % c
 
 def modular_def(a, b, c):
@@ -12,12 +12,12 @@ def modular_def(a, b, c):
         return a % c
     temp = modular_def(a, int(b/2), c)
     
-    # Áö¼ö¹ıÄ¢ ÀÀ¿ë a^7 = a^3 * a^3 * a
-    # Áö¼ö°¡ Â¦¼ö
+    # ì§€ìˆ˜ë²•ì¹™ ì‘ìš© a^7 = a^3 * a^3 * a
+    # ì§€ìˆ˜ê°€ ì§ìˆ˜
     if num2 % 2 == 0:
-        return temp * temp % denominator
-    # È¦¼ö
+        return temp * temp % c
+    # í™€ìˆ˜
     else:
-        return temp * temp * num1 % denominator
+        return temp * temp * a % c
         
 print(modular_def(a, b, c))

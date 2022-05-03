@@ -19,6 +19,7 @@ def bfs():
                 que.append(c)
 print(bfs())
 
+
 # 곱할때 더할때 뺄때의 경우를 나누어 생각해봄
 # count = 0
 # f_flag = False

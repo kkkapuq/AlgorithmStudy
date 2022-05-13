@@ -1,7 +1,3 @@
-from os import stat
-from turtle import st
-
-
 str = list(input().rstrip())
 stack = []
 operator = ['+', '-', '*', '/', '(', ')']

@@ -10,13 +10,18 @@ def dfs(v):
             dfs(i)
             cnt += 1
 
-# def bfs(graph, v, visited):
+def bfs(v):
+    visited[v] = 1
+    q = deque([v])
     
-#     q = deque()
-    
-    
-    
-#     return False
+    while q:
+        x = q.popleft()
+        for i in graph[x]:
+            if visited[i] == 0:
+                visited[i] = 1
+                global cnt
+                cnt += 1
+                q.append(i)
 
 n = int(input())
 m = int(input())
@@ -30,8 +35,6 @@ for _ in range(1, m + 1):
     x, y = map(int, sys.stdin.readline().split())
     graph[x].append(y)
     graph[y].append(x)
-    # graph[x].sort()
-    # graph[y].sort()
 
-dfs(1)
+bfs(1)
 print(cnt)

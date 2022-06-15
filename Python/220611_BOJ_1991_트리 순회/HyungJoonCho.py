@@ -30,8 +30,8 @@ def inorder(root):
 # 후위, 왼 오 루
 def postorder(root):
     if root != '.':
-        postorder(tree[root][0])
-        postorder(tree[root][1])
+        inorder(tree[root][0])
+        inorder(tree[root][1])
         print(root, end='')
 
 preorder('A')

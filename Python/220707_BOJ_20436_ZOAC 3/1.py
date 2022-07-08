@@ -20,7 +20,7 @@ for i in range(len(keyboard)):
     if sr in keyboard[i]:
         rx = i
         ry = keyboard[i].index(sr)
-        
+            
 time = 0
 
 # 문자열 돌면서 거리 계산해주기

@@ -24,9 +24,6 @@ numList = list(range(3, n+1, 4))
 
 # 0으로 채운 그래프
 allBombGraph = [ ['O' for i in range(c)] for j in range(r) ]
-tempGraph = [['O']*c for i in range(r)]
-print(allBombGraph)
-print(tempGraph)
 
 # r x c의 행렬 만들기
 for i in range(r):

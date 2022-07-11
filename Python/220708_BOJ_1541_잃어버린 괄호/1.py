@@ -15,8 +15,8 @@ for i in sliceList:
     # +가 있는 문자열이라면 +로 split 해준다, split된 plustList는 모두 더해져 totalList에 더해진다.
     if '+' in i:
         plusList = list(map(int, i.split('+')))
-        sum = sum(plusList)
-        totalList.append(sum)
+        cnt = cnt(plusList)
+        totalList.append(cnt)
     # +가 없는 문자열이라면 그냥 totalLIst에 더해준다.
     else:
         totalList.append(int(i))

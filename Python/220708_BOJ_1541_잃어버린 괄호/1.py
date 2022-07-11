@@ -3,9 +3,8 @@
 2. 따라서, -를 기준으로 시작괄호를 열고, 다음 -가 나온다면 그때 괄호를 닫아주자.
 '''
 
-
-string = input()
-sliceList = list(string.split('-'))
+strings = input()
+sliceList = strings.split('-')
 
 totalList = []
 totalSum = 0
@@ -14,7 +13,8 @@ totalSum = 0
 for i in sliceList:
     # +가 있는 문자열이라면 +로 split 해준다, split된 plustList는 모두 더해져 totalList에 더해진다.
     if '+' in i:
-        plusList = list(map(int, i.split('+')))
+        tempList = i.split('+')
+        plusList = list(map(int, tempList))
         sum = sum(plusList)
         totalList.append(sum)
     # +가 없는 문자열이라면 그냥 totalLIst에 더해준다.

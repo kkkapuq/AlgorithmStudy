@@ -16,7 +16,7 @@ for i in range(n):
         if len(q) < 1:
             print(-1)
         else:
-            print(-1*heapq.heappop(q))
+            print(-heapq.heappop(q))
     else:
         for j in range(1, len(tempList)):
             heapq.heappush(q, -1*tempList[j])

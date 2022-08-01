@@ -4,10 +4,9 @@
 '''
 n = int(input())
 
-# 입력하고 정렬
 numList = list(map(int, input().split()))
 
-# set으로 중복 제거
+# set으로 중복 제거 및 정렬
 setList = list(set(numList))
 setList.sort()
 answerDic = {}

@@ -23,22 +23,23 @@ def bfs():
     while q:
         v = q.popleft()
         # 순간이동
-        if v * 2 < INF and visited[v*2] == False:
+        if 0 <= v * 2 < INF and visited[v*2] == False:
             q.append(v*2)
             visited[v*2] = True
             dist[v*2] = dist[v]
         # x-1 이동
-        if v-1 < INF and visited[v-1] == False:
+        if 0 <= v-1 < INF and visited[v-1] == False:
             q.append(v-1)
             visited[v-1] = True
             dist[v-1] = dist[v] + 1
         # x+1 이동
-        if v+1 < INF and visited[v+1] == False:
+        if 0 <= v+1 < INF and visited[v+1] == False:
             q.append(v+1)
             visited[v+1] = True
             dist[v+1] = dist[v] + 1
+            
+    print(dist[k])
 bfs()
-print(dist[k])
         
     
     

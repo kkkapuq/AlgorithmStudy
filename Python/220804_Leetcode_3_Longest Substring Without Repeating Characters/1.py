@@ -1,22 +1,16 @@
 def lengthOfLongestSubstring(s: str):
-    lengthList = [0]
-    stack = []
-    strList = list(s)
-    
-    if len(s) == 1:
-        return 1
+    window = set()
+    l = 0
+    res = 0
     
     for i in range(len(s)):
-        if s[i] in stack:
-            lengthList.append(len(stack))
-            stack = []
-            stack.append(s[i])
-        else:
-            stack.append(s[i])
-            if len(stack) > max(lengthList):
-                lengthList.append(len(stack))
-    
-    return print(max(lengthList))
+        while s[i] in window:
+            window.remove(s[l])
+            l += 1
+        window.add(s[i])
+        res = max(res, i - l + 1)
+    return res
+            
 
 lengthOfLongestSubstring('dvdf')
 

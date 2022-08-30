@@ -48,9 +48,9 @@ public class Leetcode_20_Valid_Parentheses {
         return false;
     }
 
-    public static void main(String[] args) {
-        Leetcode_20_Valid_Parentheses temp = new Leetcode_20_Valid_Parentheses();
-        boolean t = temp.isValid("()[]{}");
-        System.out.println(t);
-    }
+//    public static void main(String[] args) {
+//        Leetcode_20_Valid_Parentheses temp = new Leetcode_20_Valid_Parentheses();
+//        boolean t = temp.isValid("()[]{}");
+//        System.out.println(t);
+//    }
 }

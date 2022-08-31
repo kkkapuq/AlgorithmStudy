@@ -86,8 +86,8 @@ public class Programmers_118666 {
         return answer;
     }
 
-    public static void main(String[] args) {
-        String temp = solution(new String[]{"AN", "CF", "MJ", "RT", "NA"}, new int[]{5, 3, 2, 7, 5});
-        System.out.println(temp);
-    }
+//    public static void main(String[] args) {
+//        String temp = solution(new String[]{"AN", "CF", "MJ", "RT", "NA"}, new int[]{5, 3, 2, 7, 5});
+//        System.out.println(temp);
+//    }
 }

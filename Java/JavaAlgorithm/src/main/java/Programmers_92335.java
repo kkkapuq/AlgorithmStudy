@@ -23,8 +23,8 @@ public class Programmers_92335 {
         }
         return true;
     }
-    public static void main(String[] args) {
-        int temp = solution(437674, 3);
-        System.out.println(temp);
-    }
+//    public static void main(String[] args) {
+//        int temp = solution(437674, 3);
+//        System.out.println(temp);
+//    }
 }

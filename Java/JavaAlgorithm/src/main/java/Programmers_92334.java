@@ -95,10 +95,10 @@ public class Programmers_92334 {
 
     }
 
-    public static void main(String[] args) {
-        int[] temp = solution(new String[]{"muzi", "frodo", "apeach", "neo"}, new String[]{"muzi frodo", "apeach frodo", "frodo neo", "frodo neo", "frodo neo", "muzi neo", "apeach muzi"}, 2);
-        System.out.println(temp);
-    }
+//    public static void main(String[] args) {
+//        int[] temp = solution(new String[]{"muzi", "frodo", "apeach", "neo"}, new String[]{"muzi frodo", "apeach frodo", "frodo neo", "frodo neo", "frodo neo", "muzi neo", "apeach muzi"}, 2);
+//        System.out.println(temp);
+//    }
 
 
 }

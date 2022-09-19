@@ -32,8 +32,8 @@ public class Leetcode_581_Shortest_Unsorted_Continuous_Subarray {
 
     }
 
-    public static void main(String[] args) {
-        int temp = findUnsortedSubarray(new int[]{2,6,4,8,10,9,15});
-        System.out.println(temp);
-    }
+//    public static void main(String[] args) {
+//        int temp = findUnsortedSubarray(new int[]{2,6,4,8,10,9,15});
+//        System.out.println(temp);
+//    }
 }

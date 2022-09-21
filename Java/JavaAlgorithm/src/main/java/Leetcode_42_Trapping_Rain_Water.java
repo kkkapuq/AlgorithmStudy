@@ -40,8 +40,8 @@ public class Leetcode_42_Trapping_Rain_Water {
         return answer;
     }
 
-    public static void main(String[] args) {
-        int temp = trap(new int[]{2, 6, 4, 8, 10, 9, 15});
-        System.out.println(temp);
-    }
+//    public static void main(String[] args) {
+//        int temp = trap(new int[]{2, 6, 4, 8, 10, 9, 15});
+//        System.out.println(temp);
+//    }
 }

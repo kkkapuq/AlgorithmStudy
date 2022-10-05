@@ -1,7 +1,7 @@
 def maxProfit(prices: list[int]):
     n = len(prices)
     profit = 0
-    for i in range(len(prices)):
+    for i in range(len(prices)-1):
         price = prices[i]
         if price < prices[i+1]:
             profit += prices[i+1] - price

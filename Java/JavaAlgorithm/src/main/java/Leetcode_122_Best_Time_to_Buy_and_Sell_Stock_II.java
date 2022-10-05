@@ -14,9 +14,9 @@ public class Leetcode_122_Best_Time_to_Buy_and_Sell_Stock_II {
         return profit;
     }
 
-    public static void main(String[] args) {
-        int temp = maxProfit(new int[]{7,1,5,3,6,4});
-        System.out.println(temp);
-    }
+//    public static void main(String[] args) {
+//        int temp = maxProfit(new int[]{7,1,5,3,6,4});
+//        System.out.println(temp);
+//    }
 
 }

@@ -38,7 +38,7 @@ public class Leetcode_73_Set_Matrix_Zeroes {
         return temp;
     }
 
-    public static void main(String[] args) {
-        setZeroes(new int[][]{{0,1,2,0}, {3,4,5,2}, {1,3,1,5}});
-    }
+//    public static void main(String[] args) {
+//        setZeroes(new int[][]{{0,1,2,0}, {3,4,5,2}, {1,3,1,5}});
+//    }
 }

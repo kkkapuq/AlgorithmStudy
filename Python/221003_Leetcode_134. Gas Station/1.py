@@ -45,15 +45,6 @@ def canCompleteCircuit(gas: list[int], cost: list[int]):
     return -1 
     '''
     
-    # trip_tank, curr_tank, start, n = 0, 0, 0, len(gas)
-    # for i in range(n):
-    #     trip_tank += gas[i] - cost[i]
-    #     curr_tank += gas[i] - cost[i]
-    #     if curr_tank < 0:
-    #         start = i + 1
-    #         curr_tank = 0 
-    # return start if trip_tank >= 0 else -1
-    
     # 1바퀴 돌만큼의 기름이 없는경우엔 -1 리턴
     if sum(gas) < sum(cost):
         return -1

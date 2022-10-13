@@ -38,8 +38,8 @@ public class Leetcode_40_Combination_Sum_II {
         }
     }
 
-    public static void main(String[] args) {
-        List<List<Integer>> temp = combinationSum2(new int[]{10,1,2,7,6,1,5}, 8);
-        System.out.println(temp);
-    }
+//    public static void main(String[] args) {
+//        List<List<Integer>> temp = combinationSum2(new int[]{10,1,2,7,6,1,5}, 8);
+//        System.out.println(temp);
+//    }
 }

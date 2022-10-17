@@ -1,5 +1,3 @@
-from inspect import stack
-
 
 def generateParenthesis(n: int):
     left = right = 0

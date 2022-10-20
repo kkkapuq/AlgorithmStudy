@@ -60,8 +60,8 @@ public class Leetcode_35_Search_Insert_Position {
     }
 
 
-    public static void main(String[] args) {
-        int temp = searchInsert(new int[]{1,3,5}, 1);
-        System.out.println(temp);
-    }
+//    public static void main(String[] args) {
+//        int temp = searchInsert(new int[]{1,3,5}, 1);
+//        System.out.println(temp);
+//    }
 }

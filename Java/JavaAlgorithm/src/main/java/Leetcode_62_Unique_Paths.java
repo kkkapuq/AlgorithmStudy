@@ -13,8 +13,8 @@ public class Leetcode_62_Unique_Paths {
         return dp[m-1][n-1];
     }
 
-    public static void main(String[] args) {
-        int temp = uniquePaths(3, 7);
-        System.out.println(temp);
-    }
+//    public static void main(String[] args) {
+//        int temp = uniquePaths(3, 7);
+//        System.out.println(temp);
+//    }
 }

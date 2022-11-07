@@ -25,8 +25,8 @@ public class Leetcode_169_Majority_Element {
         return 0;
     }
 
-    public static void main(String[] args) {
-        int temp = majorityElement(new int[]{3, 2, 3});
-        System.out.println(temp);
-    }
+//    public static void main(String[] args) {
+//        int temp = majorityElement(new int[]{3, 2, 3});
+//        System.out.println(temp);
+//    }
 }

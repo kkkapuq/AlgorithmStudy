@@ -21,7 +21,7 @@ public class Leetcode_202_Happy_number {
         return false;
     }
 
-    public static void main(String[] args) {
-        boolean temp = isHappy(2);
-    }
+//    public static void main(String[] args) {
+//        boolean temp = isHappy(2);
+//    }
 }

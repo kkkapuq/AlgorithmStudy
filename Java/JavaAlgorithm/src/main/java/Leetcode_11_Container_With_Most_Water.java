@@ -22,8 +22,8 @@ public class Leetcode_11_Container_With_Most_Water {
         return maxAmount;
     }
 
-    public static void main(String[] args) {
-        int temp = maxArea(new int[]{7,8,6,2,5,4,8,3,7});
-        System.out.println(temp);
-    }
+//    public static void main(String[] args) {
+//        int temp = maxArea(new int[]{7,8,6,2,5,4,8,3,7});
+//        System.out.println(temp);
+//    }
 }
